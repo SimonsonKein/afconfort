@@ -1,0 +1,38 @@
+{
+ "00001": {
+  "img": "../../../img/catalog/tehnica_dlya_kuhni/krupnaia_tehnica/holodilniki/00001.jpg",
+  "name": "Холодильник Side-by-Side Heinner HSBSH430NFBK",
+  "price": "9 999",
+  "credit": "583",
+  "brand": "Heinner",
+  "type": "Холодильники Side-by-Side",
+  "height": "175",
+  "width": "90",
+  "color": "Черный",
+  "frigcam": "No Frost",
+  "freezecam": "No Frost",
+  "all_volume": "430",
+  "frig_volume": "290",
+  "freeze_volume": "140",
+  "compressors": "1",
+  "energy": "A+"
+ },
+ "00002": {
+  "img": "../../../img/catalog/tehnica_dlya_kuhni/krupnaia_tehnica/holodilniki/00002.jpg",
+  "name": "Холодильник Miele KFN 29283 Dbb",
+  "price": "44 999",
+  "credit": "2625",
+  "brand": "Miele",
+  "type": "С нижней морозильной камерой",
+  "height": "201",
+  "width": "60",
+  "color": "Черный",
+  "frigcam": "Капельная система",
+  "freezecam": "No Frost",
+  "all_volume": "340",
+  "frig_volume": "240",
+  "freeze_volume": "100",
+  "compressors": "1",
+  "energy": "A+++"
+ }
+}

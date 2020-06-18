@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Холодильники</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../../fonts/fontawesome-pro-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="../../../css/reset.css">
+  <link rel="stylesheet" href="../../../css/catalog/tehnica_dlya_kuhni/крупная.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__left">
+          <div class="header__work_today">
+            <div class="work__today" id="work__today">
+              <span class="icon-clock"><i class="far fa-clock"></i></span>
+              <div class="work__today_content">
+                <div id="day">Работаем сегодня:</div>
+                <div class="time" id="time">9:00 - 20:00</div>
+              </div>
+            </div>
+
+            <div class="work__schedule">
+              <div class="mon">
+                <span class="day">Понедельник:</span>
+                <span class="time">09:00 - 20:00</span>
+              </div>
+              <div class="tue">
+                <span class="day">Вторник:</span>
+                <span class="time">09:00 - 20:00</span>
+              </div>
+              <div class="wed">
+                <span class="day">Среда:</span>
+                <span class="time">09:00 - 20:00</span>
+              </div>
+              <div class="thu">
+                <span class="day">Четверг:</span>
+                <span class="time">09:00 - 20:00</span>
+              </div>
+              <div class="fri">
+                <span class="day">Пятница:</span>
+                <span class="time">09:00 - 20:00</span>
+              </div>
+              <div class="sat">
+                <span class="day">Суббота:</span>
+                <span class="time">09:00 - 19:00</span>
+              </div>
+              <div class="sun">
+                <span class="day" id="day">Воскресенье:</span>
+                <span class="time">09:00 - 19:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__center">
+          <a href="../index.html" class="header__logo"><img src="../img/logo.png" alt="" class="logo"></a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__delivery">
+            <a href="#footer__delivery">
+              <i class="fa fa-truck-moving"></i>
+              <div class="delivery">Доставка</div>
+            </a>
+          </div>
+
+          <div class="header__contacts">
+            <a href="#footer__contacts">
+              <i class="fas fa-phone"></i>
+              <div class="contacts">Контакты</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu">
+    <div class="container">
+      <div class="menu__inner">
+
+        <ul class="catalog">
+          <li class="lvl0">
+            <a href="html/catalog.html">
+              <div class="burger">
+                <div class="shelf"></div>
+                <div class="shelf"></div>
+                <div class="shelf"></div>
+              </div>
+              <div class="catalog__name">Каталог товаров</div>
+            </a>
+
+            <ul class="lvl1">
+              <li><a href="">Техника для кухни</a>
+                <ul class="lvl2">
+                  <li><a href="">Крупная техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Холодильники</a></li>
+                      <li><a href="">Морозильники</a></li>
+                      <li><a href="">Кухонные плиты</a></li>
+                      <li><a href="">Микроволновые печи</a></li>
+                      <li><a href="">Посудомоечные машины</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Мелкая техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Блендеры</a></li>
+                      <li><a href="">Соковыжималки</a></li>
+                      <li><a href="">Мультиварки</a></li>
+                      <li><a href="">Весы кухонные, бытовые</a></li>
+                      <li><a href="">Тостеры</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Встраиваемая техника и оборудование</a>
+                    <ul class="lvl3">
+                      <li><a href="">Посудомоечные машины встраиваемые</a></li>
+                      <li><a href="">Холодильники встраиваемые</a></li>
+                      <li><a href="">Микроволновые печи встраиваемые</a></li>
+                      <li><a href="">Морозильники встраиваемые</a></li>
+                      <li><a href="">Кофемашины встраиваемые</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Приготовление кофе</a>
+                    <ul class="lvl3">
+                      <li><a href="">Кофемашины</a></li>
+                      <li><a href="">Кофеварки</a></li>
+                      <li><a href="">Кофемолки</a></li>
+                      <li><a href="">Кофе</a></li>
+                      <li><a href="">Аксессуары для кофе машин</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Посуда, кухонная утварь</a>
+                    <ul class="lvl3">
+                      <li><a href="">Столовые приборы</a></li>
+                      <li><a href="">Турки, молочники</a></li>
+                      <li><a href="">Чайники, заварники</a></li>
+                      <li><a href="">Термосы и термокружки</a></li>
+                      <li><a href="">Ножи</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="">Техника для дома</a>
+                <ul class="lvl2">
+                  <li><a href="">Бытовая техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Пылесосы</a></li>
+                      <li><a href="">Стиральные машины</a></li>
+                      <li><a href="">Отпариватели</a></li>
+                      <li><a href="">Утюги</a></li>
+                      <li><a href="">Швейные, вышивальные машины</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Климатическая техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Кондиционеры/сплит системы</a></li>
+                      <li><a href="">Все обогревательные приборы</a></li>
+                      <li><a href="">Вентиляторы</a></li>
+                      <li><a href="">Сушилки для рук</a></li>
+                      <li><a href="">Метеостанции</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Хозтовры, бытовая химия</a>
+                    <ul class="lvl3">
+                      <li><a href="">Гладильные доски, системы</a></li>
+                      <li><a href="">Средства для мытья посуды</a></li>
+                      <li><a href="">Полотенца</a></li>
+                      <li><a href="">Посуда</a></li>
+                      <li><a href="">Бытовая химия</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Освещение, LED</a>
+                    <ul class="lvl3">
+                      <li><a href="">Настольные лампы</a></li>
+                      <li><a href="">Аксессуары для освещения</a></li>
+                      <li><a href="">Фонарики</a></li>
+                      <li><a href="">LED лампы</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">ТВ и электроника</a>
+                <ul class="lvl2">
+                  <li><a href="">ТВ, Видео</a>
+                    <ul class="lvl3">
+                      <li><a href="">Телевизоры</a></li>
+                      <li><a href="">Проекторы</a></li>
+                      <li><a href="">Кронштейны для ТВ</a></li>
+                      <li><a href="">Кабели, переходники</a></li>
+                      <li><a href="">Универсальные пульты</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Аудиоехника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Домашние кинотеатры</a></li>
+                      <li><a href="">Акустика, портативная акустика</a></li>
+                      <li><a href="">Музыкальные центры</a></li>
+                      <li><a href="">Наушники и гарнитуры</a></li>
+                      <li><a href="">Радиоприёмники</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">Ноутбуки и компьютеры</a>
+                <ul class="lvl2">
+                  <li><a href="">Компьютерная техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Игровые ноутбуки</a></li>
+                      <li><a href="">Бизнес ноутбуки</a></li>
+                      <li><a href="">Игровые приставки</a></li>
+                      <li><a href="">Игровые компьютеры</a></li>
+                      <li><a href="">Системные блоки</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Периферия, аксессуары</a>
+                    <ul class="lvl3">
+                      <li><a href="">Принтеры</a></li>
+                      <li><a href="">Игровые рули, джойстики и геймпады</a></li>
+                      <li><a href="">Веб-камеры</a></li>
+                      <li><a href="">Наушники и гарнитуры</a></li>
+                      <li><a href="">Акустические системы</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">Спорт и развлечения</a>
+                <ul class="lvl2">
+                  <li><a href="">Фитнес и тяжелая атлетика</a>
+                    <ul class="lvl3">
+                      <li><a href="">Гантели</a></li>
+                      <li><a href="">Скакалки</a></li>
+                      <li><a href="">Коврики</a></li>
+                      <li><a href="">Шейкеры и бутылки</a></li>
+                      <li><a href="">Полотенца</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Тренажеры/турники</a>
+                    <ul class="lvl3">
+                      <li class=""><a href="">Беговые дорожки</a></li>
+                      <li class=""><a href="">Велотренажеры</a></li>
+                      <li class=""><a href="">Турники, брусья</a></li>
+                      <li class=""><a href="">Скамьи спортивные</a></li>
+                      <li class=""><a href="">Спортивные комплексы</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Одежда для активного отдыха</a>
+                    <ul class="lvl3">
+                      <li><a href="">Мужчинам</a></li>
+                      <li><a href="">Женщинам</a></li>
+                      <li><a href="">Мальчикам</a></li>
+                      <li><a href="">Девочкам</a></li>
+                      <li><a href="">Аксессуары</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Плавание</a>
+                    <ul class="lvl3">
+                      <li><a href="">Очки</a></li>
+                      <li><a href="">Шапочки</a></li>
+                      <li><a href="">Наборы для плавания</a></li>
+                      <li><a href="">Мешки для мокрых вещей</a></li>
+                      <li><a href="">Аквафитнес</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Велосипеды, самокаты, ролики</a>
+                    <ul class="lvl3">
+                      <li><a href="">Велосипеды</a></li>
+                      <li><a href="">Самокаты</a></li>
+                      <li><a href="">Ролики</a></li>
+                      <li><a href="">Скейтборды, снейкборды</a></li>
+                      <li><a href="">Гироскутеры, моноколеса, сегвеи</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">Красота и здоровье</a>
+                <ul class="lvl2">
+                  <li><a href="">Укладка для волос</a>
+                    <ul class="lvl3">
+                      <li><a href="">Фены</a></li>
+                      <li><a href="">Фены-щетки</a></li>
+                      <li><a href="">Выпрямители</a></li>
+                      <li><a href="">Электрощипцы и плойки</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Бритье и стрижка</a>
+                    <ul class="lvl3">
+                      <li><a href="">Электробритвы</a></li>
+                      <li><a href="">Машинки для стрижки</a></li>
+                      <li><a href="">Триммеры</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Товары для красоты</a>
+                    <ul class="lvl3">
+                      <li><a href="">Эпиляторы</a></li>
+                      <li><a href="">Для ухода за лицом</a></li>
+                      <li><a href="">Маникюрные наборы</a></li>
+                      <li><a href="">Для ухода за ногами</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Товары для здоровья</a>
+                    <ul class="lvl3">
+                      <li><a href="">Весы</a></li>
+                      <li><a href="">Другие товары для здоровья</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Товары для детей</a>
+                    <ul class="lvl3">
+                      <li><a href="">Блендеры</a></li>
+                      <li><a href="">Пароварки</a></li>
+                      <li><a href="">Стерилизаторы</a></li>
+                      <li><a href="">Увлажнители воздуха</a></li>
+                      <li><a href="">Детские термосы</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">Электроинструмент и сдовая техника</a>
+                <ul class="lvl2">
+                  <li><a href="">Бытовой электроинструмент</a>
+                    <ul class="lvl3">
+                      <li><a href="">Дрели безударные/ударные </a></li>
+                      <li><a href="">Перфораторы и отбойники</a></li>
+                      <li><a href="">Шуруповёрты, отвертки электрические </a></li>
+                      <li><a href="">Расходные материалы и аксессуары</a></li>
+                      <li><a href="">Измерительная техника</a></li>
+                      <li><a href="">Фрезеры</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Ручной инструмент</a>
+                    <ul class="lvl3">
+                      <li><a href="">Ключи, плоскогубцы</a></li>
+                      <li><a href="">Отвертки</a></li>
+                      <li><a href="">Молотки</a></li>
+                      <li><a href="">Головки, биты</a></li>
+                      <li><a href="">Наборы инструментов</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Садовая техника</a>
+                    <ul class="lvl3">
+                      <li><a href="">Газонокосилки</a></li>
+                      <li><a href="">Триммеры и бензокосы</a></li>
+                      <li><a href="">Мойки высокого давления</a></li>
+                      <li><a href="">Кусторезы, садовые ножницы</a></li>
+                      <li><a href="">Аксессуары для сада</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Аксессуары и принадлежности</a>
+                    <ul class="lvl3">
+                      <li><a href="">Наборы инструментов</a></li>
+                      <li><a href="">Сверла</a></li>
+                      <li><a href="">Биты</a></li>
+                      <li><a href="">Диски</a></li>
+                      <li><a href="">Пильные полотна</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li><a href="">Авто</a>
+                <ul class="lvl2">
+                  <li><a href="">Масла и смазки</a>
+                    <ul class="lvl3">
+                      <li><a href="">Моторные масла</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="">Автоаксессуары</a>
+                    <ul class="lvl3">
+                      <li><a href="">Автомобильные зарядные устройства</a></li>
+                      <li><a href="">Автомобильные FM устройства</a></li>
+                      <li><a href="">Bluethooth гарнитуры</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Товары для авто</a>
+                    <ul class="lvl3">
+                      <li><a href="">Автохолодильники и сумки холодильники</a></li>
+                      <li><a href="">Мойки высокого давления</a></li>
+                      <li><a href="">Термосы и термокружки</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+          </li>
+        </ul>
+
+        <form class="menu__find">
+          <input class="place_for_search" type="text" value="" id="text-to-find" placeholder="Search" autofocus>
+          <input class="button_for_turn_back" type="button" value=" " title="Отменить поиск"
+            onclick="javascript: FindOnPage('text-to-find',false); return false;" placeholder="9">
+          <input class="button_for_search" type="submit" value=" " title="Начать поиск"
+            onclick="javascript: FindOnPage('text-to-find',true); return false;">
+
+        </form>
+
+        <div class="menu__right">
+          <div class="account__not_entered">
+            <div class="sign__in">
+              <i class="fas fa-user-circle"></i>
+              <span class="sign__in_text">Вход</span>
+            </div>
+            <span class="slash">/</span>
+            <div class="register">
+              <i class="fas fa-file-user"></i>
+              <span class="register_text">Регистрация</span>
+            </div>
+          </div>
+          <div class="account__entered"></div>
+          <div class="menu__btns">
+            <div class="menu__btn"><a href=""><i class="far fa-heart"></i></a></i></div>
+            <div class="menu__btn"><a href=""><i class="far fa-balance-scale"></i></a></i></div>
+            <div class="menu__btn"><a href=""><i class="far fa-shopping-basket"></i></a></i></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- MENU -->
+
+  <div class="prod-way">
+    <div class="container">
+      <div class="prod-way-content">
+        <span>
+          <a href="../index.html">Главная</a>
+          <span> / </span><a href="../catalog/catalog.html">Каталог товаров</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="prod">
+    <div class="container">
+      <div class="prod-inner">
+        <div class="prod-content">
+          <div class="prod-items">
+            <div class="prod-item">
+              <div class="prod-item-img">
+                <img src="" alt="">
+              </div>
+              <div class="prod-item-title">Крупная техника</div>
+
+              <div class="prod-item-btns">
+                <div class="prod-item-btn__left"><a href="">Со скидкой</a></div>
+                <div class="prod-item-btn__right"><a
+                    href="../tehnica_dlya_kuhni/krupnaia_tehnica/крупная_техника.html">Перейти</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="prod-item">
+              <div class="prod-item-img">
+                <img src="../catalog/техника_для_дома.jpg" alt="">
+              </div>
+              <div class="prod-item-title">Мелкая техника</div>
+
+              <div class="prod-item-btns">
+                <div class="prod-item-btn__left"><a href="">Со скидкой</a></div>
+                <div class="prod-item-btn__right"><a href="">Перейти</a></div>
+              </div>
+            </div>
+
+            <div class="prod-item">
+              <div class="prod-item-img">
+                <img src="../catalog/тв_и_электроника.jpg" alt="">
+              </div>
+              <div class="prod-item-title">Встраиваемая техника и оборудование</div>
+
+              <div class="prod-item-btns">
+                <div class="prod-item-btn__left"><a href="">Со скидкой</a></div>
+                <div class="prod-item-btn__right"><a href="">Перейти</a></div>
+              </div>
+            </div>
+
+            <div class="prod-item">
+              <div class="prod-item-img">
+                <img src="../catalog/ноутбуки_и_компьютеры.jpg" alt="">
+              </div>
+              <div class="prod-item-title">Приготовление кофе</div>
+
+              <div class="prod-item-btns">
+                <div class="prod-item-btn__left"><a href="">Со скидкой</a></div>
+                <div class="prod-item-btn__right"><a href="">Перейти</a></div>
+              </div>
+            </div>
+
+            <div class="prod-item">
+              <div class="prod-item-img">
+                <img src="../catalog/спорт_и_развлечения.jpg" alt="">
+              </div>
+              <div class="prod-item-title">Посуда, кухонная утварь</div>
+
+              <div class="prod-item-btns">
+                <div class="prod-item-btn__left"><a href="">Со скидкой</a></div>
+                <div class="prod-item-btn__right"><a href="">Перейти</a></div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <div class="footer__logo"><a href="../index.html"><img src="../img/logo.png" alt="" class="logo"></a></div>
+          <div class="footer__schedule__list">
+            <div class="footer__schedule schedule__yesterday">
+              <div class="day">Воскресенье:</div>
+              <div class="time">09:00 - 19:00</div>
+              <div class="footer__work__schedule schedule__first">
+                <div class="mon">
+                  <span class="day">Понедельник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="tue">
+                  <span class="day">Вторник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="wed">
+                  <span class="day">Среда:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="thu">
+                  <span class="day">Четверг:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="fri">
+                  <span class="day">Пятница:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="sat">
+                  <span class="day">Суббота:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+                <div class="sun">
+                  <span class="day" id="day">Воскресенье:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer__schedule schedule__today">
+              <div class="day">Понедельник:</div>
+              <div class="time">09:00 - 20:00</div>
+              <div class="footer__work__schedule schedule__second">
+                <div class="mon">
+                  <span class="day">Понедельник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="tue">
+                  <span class="day">Вторник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="wed">
+                  <span class="day">Среда:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="thu">
+                  <span class="day">Четверг:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="fri">
+                  <span class="day">Пятница:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="sat">
+                  <span class="day">Суббота:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+                <div class="sun">
+                  <span class="day" id="day">Воскресенье:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer__schedule schedule__tomorrow">
+              <div class="day">Вторник:</div>
+              <div class="time">09:00 - 20:00</div>
+              <div class="footer__work__schedule schedule__third">
+                <div class="mon">
+                  <span class="day">Понедельник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="tue">
+                  <span class="day">Вторник:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="wed">
+                  <span class="day">Среда:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="thu">
+                  <span class="day">Четверг:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="fri">
+                  <span class="day">Пятница:</span>
+                  <span class="time">09:00 - 20:00</span>
+                </div>
+                <div class="sat">
+                  <span class="day">Суббота:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+                <div class="sun">
+                  <span class="day" id="day">Воскресенье:</span>
+                  <span class="time">09:00 - 19:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__delivery" id="footer__delivery">
+            <div class="delivery__title">Доставка</div>
+            <div class="delivery__desc">На сегодняшний день все больше покупок совершается в магазинах.
+              Во-первых, это быстро. Во-вторых, не нужно даже выходить из дома, когда тебе надо купить
+              новый
+              пылесос, холодильник или любую другую бытовую технику или гаджет.</div>
+          </div>
+
+          <div class="footer__contacts" id="footer__contacts">
+            <div class="contacts__title">Контакты</div>
+            <div class="contact__list">
+              <div class="contact">
+                <span class="title">Телефон</span>
+                <span class="numb">0xxxxxxxx</span>
+              </div>
+
+              <div class="contact">
+                <span class="title">Отдел продаж</span>
+                <span class="numb">0xxxxxxxx</span>
+              </div>
+
+              <div class="contact">
+                <span class="title">Техническая поддержка</span>
+                <span class="numb">0xxxxxxxx</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__mail">
+          <div class="mail__title">Рассылка новостей на почту</div>
+          <div class="footer__mail__content">
+            <input type="text" placeholder="Почта">
+            <div class="mail__btn">
+              <button>Подтвердить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
